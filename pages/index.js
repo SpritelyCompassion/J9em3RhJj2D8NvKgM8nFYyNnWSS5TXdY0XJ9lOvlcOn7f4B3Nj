@@ -51,6 +51,11 @@ const Home = (props) => {
           <span className="home-text2">
             Additional organisations planed, remaining possible.
           </span>
+          <img
+            src="/playground_assets/sdjcnzsjdvn.svg"
+            alt="image"
+            className="home-image6"
+          />
         </div>
         <div className="home-container5">
           <a
@@ -160,19 +165,37 @@ const Home = (props) => {
             width: 100%;
             height: 100vh;
             display: flex;
+            position: relative;
             align-items: center;
             flex-direction: column;
-            background-size: 52.5vh;
+            background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/sdjcnzsjdvn.svg');
-            background-repeat: no-repeat, repeat, repeat;
+            background-image: url('/playground_assets/bdinahg.svg');
+            background-repeat: no-repeat;
             background-position: center;
           }
           .home-text2 {
+            z-index: 2;
             font-size: 4vh;
             font-style: normal;
             font-family: Circular Std Book;
             font-weight: 400;
+          }
+          .home-image6 {
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            width: 52.5vh;
+            bottom: 0px;
+            height: 52.5vh;
+            margin: auto;
+            z-index: 0;
+            position: absolute;
+            object-fit: cover;
+            user-select: none;
+            -ms-user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
           }
           .home-container5 {
             gap: 2.5vh;
