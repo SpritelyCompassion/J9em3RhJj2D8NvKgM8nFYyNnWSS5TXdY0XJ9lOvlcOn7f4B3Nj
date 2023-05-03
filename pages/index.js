@@ -52,17 +52,17 @@ const Home = (props) => {
             Additional organisations planed, remaining possible.
           </span>
           <img
-            src="/playground_assets/sdjcnzsjdvn.svg"
             alt="image"
+            src="/playground_assets/sdjcnzsjdvn.svg"
             className="home-image6"
           />
         </div>
         <div className="home-container5">
           <a
-            href="mailto:livinginharmoney@protonmail.com?subject=Hello, I am interested in joining forces with Living in Harmony organization."
+            href="mailto:harmonyfaction@proton.me?subject=Hello, I am interested in joining forces with Living in Harmony organization."
             className="home-link"
           >
-            livinginharmoney@protonmail.com
+            harmonyfaction@proton.me
           </a>
           <span className="home-text3">or</span>
           <a
@@ -71,7 +71,8 @@ const Home = (props) => {
             rel="noreferrer noopener"
             className="home-link1"
           >
-            https://matrix.to/#/@.gdwill88:matrix.org
+            <span>matrix.to/#/@.gdwill88:matrix.org</span>
+            <br></br>
           </a>
         </div>
       </div>
